@@ -4,9 +4,9 @@ Connect Four is a game played by two players. They take turns in dropping a colo
 
 The project exists so I can play Connect Four with my nephews and nieces who are a big fan of Pokemon. I hope this game will also bring as much joy in your life as it does to ours.
 
-## Screenshot
+## Preview
 
-![Preview of Connect Four](/public/connect-four-preview.png?raw=true "Connect Four")
+![Preview of Connect Four](/public/connect-four-preview.png?raw=true&style=centerme "Connect Four")
 
 ## Features
 
