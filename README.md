@@ -1,12 +1,14 @@
-#Connect Four
+# Connect Four
+
 Connect Four is a game played by two players. They take turns in dropping a colored disc from the top into a grid until it hits the lowest available slot. A player has seven columns to choose from and can fill a total of six rows. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
 
 The project exists so I can play Connect Four with my nephews and nieces who are a big fan of Pokemon. I hope this game will also bring as much joy in your life as it does to ours.
 
-##Screenshot
+## Screenshot
+
 ![Preview of Connect Four](/public/connect-four-preview.png?raw=true "Connect Four")
 
-##Features
+## Features
 
 -   Two player game
 -   Pokémon theme
@@ -15,7 +17,7 @@ The project exists so I can play Connect Four with my nephews and nieces who are
 -   New game option
 -   Animation featuring two fighting Pokémon
 
-##Technology
+## Technology
 
 -   HTML
 -   CSS
@@ -24,7 +26,7 @@ The project exists so I can play Connect Four with my nephews and nieces who are
 -   JavaScript
 -   jQuery
 
-##Code Example
+## Code Example
 
 ```
 function victoryDiagonal(diagonal) {
@@ -44,14 +46,18 @@ function victoryDiagonal(diagonal) {
 }
 ```
 
-##Local usage
+## Local usage
+
 Download all files and open the index.html file in your browser.
 
-##Credits
+## Credits
+
 The idea for this project came from David Friedman from Spiced Academy.
 
-##Contribute
+## Contribute
+
 Contribution is much appreciated. Please let me know about any bugs and ideas for improvements.
 
-##License
+## License
+
 No license due to copyright owned by Nintendo, Creatures and Game Freak.
