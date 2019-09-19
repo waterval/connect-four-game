@@ -6,7 +6,9 @@ The project exists so I can play Connect Four with my nephews and nieces who are
 
 ## Preview
 
-![Preview of Connect Four](/public/connect-four-preview.png?raw=true&style=centerme "Connect Four")
+<p align="center">
+<img src="/public/connect-four-preview.png" alt="Preview of Connect Four">
+</p>
 
 ## Features
 
