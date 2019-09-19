@@ -68,11 +68,11 @@ h3 {
 }
 
 .player-1 {
-    background-image: url(red.png);
+    background-image: url(public/red.png);
 }
 
 .player-2 {
-    background-image: url(blue.png);
+    background-image: url(public/blue.png);
 }
 
 .battle-container {

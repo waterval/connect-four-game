@@ -1,211 +1,177 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>Connect Four - Pokémon edition</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-             <h2>Connect Four - Pokémon edition</h2>
-             <h3>Charizard versus Blastoise</h3>
-             <div id="board">
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="column">
-                     <div class="slot-container">
-                         <div class="slot row0">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row1">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row2">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row3">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row4">
-                         </div>
-                     </div>
-                     <div class="slot-container">
-                         <div class="slot row5">
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             <div class="battle-container">
-                 <div class="red-container">
-                     <div class="red-image"><img src="charizard.png" alt="charizard"></div>
-                 </div>
-                <div class="blue-container">
-                     <div class="blue-image"><img src="blastoise.png" alt="blastoise"></div>
+        <h2>Connect Four - Pokémon edition</h2>
+        <h3>Charizard versus Blastoise</h3>
+        <div id="board">
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
                 </div>
-                <div id="victory">
-                    <div id="victory-text"></div>
-                    <div id="victory-score"></div>
-                    <div id="victory-gif"><img src="https://media.giphy.com/media/Q9S7PhTS6MY2Q/giphy.gif"></div>
-                    <button type="button" class="button">Start new game</button>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
                 </div>
             </div>
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="slot-container">
+                    <div class="slot row0"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row1"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row2"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row3"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row4"></div>
+                </div>
+                <div class="slot-container">
+                    <div class="slot row5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="battle-container">
+            <div class="red-container">
+                <div class="red-image">
+                    <img src="public/charizard.png" alt="charizard" />
+                </div>
+            </div>
+            <div class="blue-container">
+                <div class="blue-image">
+                    <img src="public/blastoise.png" alt="blastoise" />
+                </div>
+            </div>
+            <div id="victory">
+                <div id="victory-text"></div>
+                <div id="victory-score"></div>
+                <div id="victory-gif">
+                    <img
+                        src="https://media.giphy.com/media/Q9S7PhTS6MY2Q/giphy.gif"
+                    />
+                </div>
+                <button type="button" class="button">Start new game</button>
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="script.js"></script>
     </body>
