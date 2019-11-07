@@ -14,7 +14,6 @@
                     !slotsinColumn.eq(i).hasClass("player-2")
                 ) {
                     slotsinColumn.eq(i).addClass(currentPlayer);
-                    break;
                 }
             }
             if (i == -1) {
@@ -27,7 +26,6 @@
             } else if (victoryDiagonal(diagonal)) {
                 showVictory();
             }
-
             switchPlayers();
         });
     }
