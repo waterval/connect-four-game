@@ -10,14 +10,10 @@ body {
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
     margin-bottom: 5px;
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
     margin-bottom: 15px;
 }
 
