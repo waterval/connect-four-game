@@ -94,9 +94,11 @@
         if (currentPlayer == "player-1") {
             $("#victory-text").text("Charizard wins!");
             scoreCharizard++;
+            $("#score-charizard").text(scoreCharizard);
         } else {
             $("#victory-text").text("Blastoise wins!");
             scoreBlastoise++;
+            $("#score-blastoise").text(scoreBlastoise);
         }
         $("#victory-score").text(
             "Current score: " + scoreCharizard + " - " + scoreBlastoise + "!"
